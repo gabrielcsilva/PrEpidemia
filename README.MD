@@ -6,7 +6,8 @@ Gama é uma plataforma de desenvolvimento de modelagem e simulação disponível
 
 Essa plataforma foi utilizado para implementar o modelo para simulação espaciotemporal da epidemia do COVID-19 no Distrito Federal e região de entorno. 
 
-O roteiro de instalação de instalação do Gama e do modelo estão no arquivo 
+O roteiro de instalação de instalação do Gama e do modelo está no arquivo 
 
-[Tutorial_instalar_GAMA_e_modelo.pdf](url)
+`Tutorial_instalar_GAMA_e_modelo.pdf`
+
 
