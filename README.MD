@@ -23,4 +23,12 @@ models
 O arquivo de saido está no formato CSV com os indivíduos SEIR (S=Susceptivel, E=exposto, I=Infeccioso,R =Recuperado) organizado por  municipio, por dia, num període de 365 dias. 
 Cada linha do arquivo representa um dia, e nas colunas temos os 4 grupos de pessoas para cada municipio e o DF. O modelo foi desenvolvido usando  equações diferenciais e a progressão espacial foi feito por modelagem baseado em agentes. 
 
+## Parametros
+Os principais parametros da simulação devem ser ajustados no programa
+
+	float rzero <-  4.00;
+	float gamma <- 1/14;
+	float sigma <- 1/3;	 
+
+Onde rzero, gamma e sigma representam respecitvamente Número básico de reprodução, Período de latência médio e Período infeccioso médio
 
