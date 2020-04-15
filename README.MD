@@ -38,7 +38,7 @@ Para rodar uma nova simulação é necessário mudar o valor de rzero e rodar o 
 Foram rodadas 4 cenários com valor de rzero de 4,3, 2.5 e 2. Os resultados foram colocados num arquivo excel na pasta:
 
 `
-resultado
+resultados
 `
  
 Cada arquivo excell tem a quantidade de indivíduos organizados em 4 subpasta S,E,I e R de todos os municipios e o DF para um período de 365 dias.
