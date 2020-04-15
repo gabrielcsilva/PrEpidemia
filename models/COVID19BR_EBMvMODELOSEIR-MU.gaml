@@ -36,13 +36,13 @@ global {
 		}
 	}
 	// imprimindo cabecalho
-    reflex  save_data { save string(cycle) +   " , S= ," + 
+    reflex save_data { save string(cycle) +   " , S= ," + 
     	string(Municipio collect each.GID_2) + " , E= ," + 
         string(Municipio collect each.GID_2) + " , I= ," +    	
         string(Municipio collect each.GID_2) + " , R= ," +    	
         string(Municipio collect each.GID_2)   
     	to: "cabecalho.txt" type: "text"; } 	
-
+    	
 }
 
 species Municipio {
@@ -53,7 +53,7 @@ species Municipio {
 	float I;
 	float R <- 0.0;
 	float h <- 0.01;
-	float rzero <-  4.00;
+	float rzero <-  2.0;
 	float gamma <- 1/14;
 	float sigma <- 1/3;	
 	float beta <- rzero * gamma;
@@ -142,7 +142,7 @@ experiment Pandemic2020 type: gui {
     	string(Municipio collect each.E)  + " , I= ," +
     	string(Municipio collect each.I)  + " , R= ," +
     	string(Municipio collect each.R)      	    	
-    	to: "Dados_SEIR_ro4.txt" type: "text" rewrite: "True" ;
+    	to: "Dados_SEIR_ro2.txt" type: "text" rewrite: false ;
     }
 }
 
